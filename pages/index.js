@@ -1,11 +1,12 @@
 import { Fragment } from "react";
 import EventList from "../components/events/event-list";
 import { getFeaturedEvents } from "../dummy-data";
-export default function (props) {
-  console.log(props.events);
+export default function homePage(props) {
   return (
     <Fragment>
+      
       <EventList items={props.events} />
+
     </Fragment>
   );
 }
