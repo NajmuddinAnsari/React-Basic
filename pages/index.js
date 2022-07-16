@@ -1,7 +1,7 @@
-export default function (props) {
+export default function homePage(props) {
   return (
     <div>
-     
+
     </div>
   );
 }
